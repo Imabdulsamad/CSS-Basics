@@ -1,0 +1,24 @@
+:root{
+      --primary-text: #333;
+      --bg-primary: tomato;
+      --text-element-padding: 2px 4px;
+      --text-font-family: monospace;
+}
+
+a{
+    background-color: var(--bg-primary);
+    padding: var(--text-element-padding);
+}
+
+span{
+    background-color: var(--bg-primary);
+    padding: var(--text-element-padding);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media all and (max-width: 960px){
+    :root{
+        --bg-primary: lightblue;
+        --text-element-padding: 20px
+    }
+}

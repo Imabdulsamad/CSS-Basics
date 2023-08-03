@@ -1,0 +1,19 @@
+.main-container{
+    height: 550px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+.inner-container{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(8, 0, 255);
+    margin-top: 15px;
+}
+
+.inner-container:nth-child(2){
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: rgba(255, 0, 0, 0.5);
+}

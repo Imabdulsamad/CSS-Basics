@@ -1,0 +1,28 @@
+p::first-letter{
+    font-size: 40px;
+    color: blue;
+}
+
+p::before,
+p::after{
+content: '"';
+font-weight: 700;
+color: blue;
+font-size: 40px;
+}
+
+
+p::first-line{
+    color: blueviolet;
+    background-color: bisque;
+}
+p::selection{
+    background-color: aquamarine;
+    color: blue;
+}
+
+ul li::marker{
+    color: rgb(21, 255, 0);
+    font-size: xx-large;
+}
+

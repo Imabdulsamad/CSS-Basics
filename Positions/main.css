@@ -1,0 +1,22 @@
+.outer-box {
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.inner-box {
+    border: 2px solid rgb(33, 70, 255);
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+button{
+    position: relative;
+    left: 200px;
+}
+

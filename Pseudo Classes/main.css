@@ -1,0 +1,63 @@
+/* button:hover{
+background-color: rgb(134, 101, 52);
+color: azure;
+border: 3px solid yellowgreen;
+font-weight: 80px;
+font-size: larger;
+}
+
+/* input:active{
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    border: 5px solid rgb(128, 0, 0);
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+/* 
+button:optional{
+background-color: rgb(3, 149, 113);
+}
+
+div:hover p{
+display: block;
+}
+
+p{
+    display: none;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+input:in-range{
+    border: 3px solid blue
+}  */
+
+h6:hover {
+    font-size: xx-large;
+    font-size: 30px;
+    color: blue;
+    background-color: aquamarine;
+}
+
+button:hover {
+    font-size: xx-large;
+    font-size: 20px;
+    color: blue;
+    background-color: aquamarine;
+}
+
+input:hover {
+    border: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    outline-style: outset;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+#mainBtn:active{
+position: relative;
+opacity: 0.5;
+cursor: not-allowed;
+}
