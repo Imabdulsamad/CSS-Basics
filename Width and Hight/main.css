@@ -1,0 +1,31 @@
+.main-section{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.first-one{
+    border: 2px solid blue;
+    height: 150px;
+    width: 150px;
+}
+
+.second-one{
+    border: 2px solid orange;
+    height: 100px;
+    width: 100px;
+}
+
+.third-one{
+    border: 2px solid brown;
+    height: 50px;
+    width: 50px;
+}
+
+.forth-one{
+    border: 2px solid purple;
+    height: 25px;
+    width: 25px;
+}

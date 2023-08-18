@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+}
+.main-heading{
+    text-align: center;
+}
+
+.card-btn{
+    margin-bottom: 10px;
+    margin-left: -105px;
+    color: black;
+    background-color: lightgray;
+    border-radius: 3px;
+    border: 1px solid grey;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card-btn:hover{
+background-color: #ccc;
+}
+.main-div {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 180px; */
+    text-align: center;
+    font-size: 10px;
+    gap: 100px;
+}
+
+div.gallry {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.gallry img {
+    border: 1px solid grey;
+    width: 186px;
+    height: 122px;
+    border-radius: 10px -10px -10px -10px;
+}
+
+
+.desc {
+    /* border: 1px solid grey; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallry div.desc:hover {
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.gallry:hover{
+    background-color: aliceblue;
+}

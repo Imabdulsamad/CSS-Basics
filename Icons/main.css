@@ -1,0 +1,43 @@
+.main-heading{
+    display: flex;
+    justify-content: center;
+}
+.fa-twitter{
+    color: skyblue;
+    font-size: 50px;
+    
+}
+
+.fa-facebook{
+    color: blue;
+    font-size: 50px;
+
+}
+.fa-user{
+    color: brown;
+    font-size: 50px;
+
+}
+
+.fa-instagram{
+    color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 50px;
+
+}
+
+.fav-icons{
+    display: flex;
+    gap: 100px;
+   justify-content: center;
+}
+
+.material-symbols-outlined{
+    color: #fd5949;
+    font-size: 50px !important;
+}
