@@ -1,57 +1,76 @@
-body {
-    background-color: whitesmoke;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-items: cen;
+/* .outer-container{
+    height: 200px;
+    width: 400px;
+    border: 2px solid red;
+    position: relative;
+    
 }
 
-.card {
-    width: 300px;
-    border: 1px solid #ccc;
-    margin: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+.inner-box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    position: fixed;
+    left: 900px;
+    bottom: 10px;
+    background-color: black;
+    color: white;
 }
 
-.card-image {
-    max-width: 100%;
-    height: auto;
-    cursor: pointer;
+button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
-.card-content {
-    padding: 20px;
-}
+.outer-container p{
+    position: relativex  ;
+    top: 80px;
+    left: 300px;
+    color: red;
+    font-weight: 800;
+} */
 
-.card-title {
-    font-size: 20px;
+/* .box{
+    height: 200px;
+    width: 600px;
+    border: 2px dashed red;
+    background-color: tomato;
+    margin-left: 300px;
+    color: black;
+    overflow-y: auto;
     margin-bottom: 10px;
 }
 
-.card-text {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
+.box1{
+    height: 40px;
+    width: 600px;
+    border: 2px dashed red;
+    background-color: tomato;
+    margin-left: 300px;
+    color: black;
+    overflow: auto;
+    margin-bottom: 10px;
+} */
+
+.cards{
+    display: flex;
+    gap: 10px;
+    overflow-y: auto;
 }
 
-.card-button {
-    display: block;
-    background-color: #007bff;
-    color: #fff;
+
+.card{
+    min-width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: aquamarine;
     text-align: center;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+
 }
 
-.card-button:hover {
-    background-color: #0056b3;
+img{
+    height: 100%;
+    width: 100%;
+    scale: 1;
 }
